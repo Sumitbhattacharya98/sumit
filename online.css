@@ -1,0 +1,111 @@
+
+
+#myVideo {
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  
+  z-index: -100;
+}
+body
+{
+
+	background-image: url("ConsciousSpotlessKarakul-mobile.mp4")
+	background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Comic Sans Ms",Sans-serif;
+
+    margin-top: 100px;
+}
+  h2
+  {
+  	text-align: center;
+  	font-family: "Comic Sans Ms", Sans-serif;
+  	font-size: 40px;
+  	text-shadow: 0 0 10px yellow;
+  }
+
+  fieldset
+  {
+  	border: 3px solid orange;
+  	padding: 10px;
+  	box-shadow: 0 0 10px orange;
+  	border-radius: 20px 0 20px 0;
+  	background-color: rgba(3,2,9,0.5);
+  }
+  fieldset legend
+  {
+  	border: 2px solid orange;
+  	box-shadow: 0 0 10px orange;
+  	padding: 10px;
+  	background: linear-gradient(45deg,blue,violet,black) ;
+  	border-radius: 20px 0 20px 0;
+  	font-size: 20px;
+  	font-family: "Comic Sans Ms", Sans-serif;
+
+  }
+  table
+  {
+  	width: 100%;
+  }
+  table td
+  {
+  	font-size: 18px;
+  	padding: 10px;
+  }
+  table th
+  {
+  	text-align: left;
+  }
+  input[type="text"],
+  input[type="week"],
+  input[type="month"],
+  input[type="number"],
+  input[type="time"],
+  input[type="date"],
+  select,textarea
+  {
+  	border-radius: 10px 0 10px 0;  
+  	height: 30px;
+  	width: 200px;
+  	outline: none;
+  	border:none;
+  	font-size: 20px;
+  	background-color: rgb(230,220,230);
+  	color: black;
+     }
+textarea
+{
+	 
+  	height: 70px;
+  }	
+.button
+{
+	border:3px solid orange;
+	padding: 10px 15px;
+	background: linear-gradient(45deg,blue,violet,black);
+	color: white;
+	border-radius: 20px 0 20px 0;
+	font-family: "Comic Sans Ms" Sans-serif;
+	font-size: 20px;
+
+}
+.button:hover
+{
+	background:linear-gradient(45deg,red,orange,darkred);
+	cursor: pointer;
+}
+  input[type="text"]:focus,
+  input[type="week"]:focus,
+  input[type="month"]:focus,
+  input[type="number"]:focus,
+  input[type="time"]:focus,
+  input[type="date"]:focus,
+  select:focus,textarea:focus
+  {
+  	background-color: rgb(87,174,218);
+  	box-shadow: 0 0 20px red;
+  }
